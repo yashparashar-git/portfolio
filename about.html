@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skills.html">
+    <link rel="stylesheet" href="education.html">
+    
+</head>
+<body>
+     <nav class="navbar">
+        <!-- Left side name -->
+        <div class="logo">Yash parashar</div>
+
+        <!-- Right side menu -->
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Search bar -->
+            <input type="text" class="search" placeholder="Search...">
+
+            <!-- Toggle Button -->
+            <button class="toggle-btn" onclick="toggleMode()">🌙</button>
+        </div>
+    </nav>
+     <section class="about" id="about">
+    <div class="about-left">
+        <img src="images/y2.jpeg" alt="About Image">
+    </div>
+
+    <div class="about-right">
+        <h2>About Us</h2>
+        <p>
+            I’m a Software Developer from Ajmer, Rajasthan,
+focused on building clean, responsive, and user-centric web applications
+using HTML, CSS, JavaScript and Java.
+        
+        </p>
+
+        <!-- Tabs -->
+        <div class="about-tabs">
+            <button onclick="openTab('skills')">Skills</button>
+            <button onclick="openTab('education')">Education</button>
+        </div>
+
+        <!-- Content Box -->
+        <div class="about-box" id="contentBox">
+            <iframe id="contentFrame"></iframe>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="https://github.com"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="contact-wrapper">
+
+        <!-- LEFT -->
+        <div class="contact-left">
+            <h2>Contact Me</h2>
+
+            <div class="contact-info">
+                <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fas fa-phone"></i> +91 0123456789</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <button class="cv-btn">Download CV</button>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="contact-right">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                  <form id="contact-form">
+  <button type="submit" id="submit-btn">Submit</button>
+</form>
+                <!-- <button type="submit" class="submit-btn">Submit</button> -->
+            </form>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<footer class="footer">
+  <p>
+    © <span id="year"></span> 
+    <span class="footer-name">Yash Parashar</span>. 
+    All Rights Reserved.  <a href="https://www.dezyneecole.com" style="text-decoration: none;"><span class="footer-name">@Dezyne Ecole-Collage</span></a>
+  </p>
+</footer>
+
+
+ <script src="script.js"></script>
+    
+</body>
+</html>

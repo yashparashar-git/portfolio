@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Left side name -->
+        <div class="logo">Yash parashar</div>
+
+        <!-- Right side menu -->
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Search bar -->
+            <input type="text" class="search" placeholder="Search...">
+
+            <!-- Toggle Button -->
+            <button class="toggle-btn" onclick="toggleMode()">🌙</button>
+        </div>
+    </nav>
+
+    <!-- projectsection -->
+ <!-- projectsection -->
+  <section class="projects" id="projects">
+  <h2 class="section-title"> Projects</h2>
+
+  <div class="project-container">
+
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/project1.png" alt="Project Image">
+      </div>
+
+      <div class="project-content">
+        <h3>Water Conservation-System</h3>
+        <p>
+         
+        </p>
+
+        <div class="project-buttons">
+          <a href="https://github.com/yashparashar-git/water-conservation-system.git" class="btn github">GitHub</a>
+          <a href="https://yashparashar-git.github.io/water-conservation-system/" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/p3.png" alt="Project Image">
+      </div>
+
+      <div class="project-content">
+        <h3>ice-creame-web-Design</h3>
+        <p>
+        
+        </p>
+
+        <div class="project-buttons">
+          <a href="https://github.com/yashparashar-git/ice-creame-web-layout.git" class="btn github">GitHub</a>
+          <a href="https://yashparashar-git.github.io/ice-creame-web-layout/" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/p2.png" alt="Project Image">
+      </div>
+
+      <div class="project-content">
+        <h3>Restourent Chatbot</h3>
+        <!-- <p>
+          Restourent AI-Powered chatbot using n8n like AI-agent.
+        </p> -->
+
+        <div class="project-buttons">
+          <a href="" class="btn github">GitHub</a>
+          <a href="#" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="see-more">
+    <!-- <button>See More</button> -->
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <div class="contact-wrapper">
+
+        <!-- LEFT -->
+        <div class="contact-left">
+            <h2>Contact Me</h2>
+
+            <div class="contact-info">
+                <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fas fa-phone"></i> +91 0123456789</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <button class="cv-btn">Download CV</button>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="contact-right">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <!-- <button type="submit" class="submit-btn">Submit</button> -->
+               <form id="contact-form">
+  <button type="submit" id="submit-btn">Submit</button>
+</form>
+              </form>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- footersection -->
+<footer class="footer">
+  <p>
+    © <span id="year"></span> 
+    <span class="footer-name">Yash Parashar</span>. 
+    All Rights Reserved.  <a href="https://www.dezyneecole.com" style="text-decoration: none;"><span class="footer-name">@Dezyne Ecole-Collage</span></a>
+  </p>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
